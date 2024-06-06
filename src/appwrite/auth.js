@@ -40,7 +40,7 @@ export class AuthService {
            console.log("Appwrite service :: getCurrentUser :: error", error);
         }
 
-        return null; //when it has error that time it return and whike not throw error that also rturn null
+        return null; 
     }
 
     async logout(){
